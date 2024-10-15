@@ -1,0 +1,93 @@
+version: 4.0.69
+steps:
+  - prompt: Focus the browser window.
+    commands:
+      - command: focus-application
+        name: Google Chrome
+  - prompt: Click on the "About Us" section in the navigation menu.
+    commands:
+      - command: hover-text
+        text: About Us
+        description: navigation menu item
+        action: click
+  - prompt: Click on the "About Us" section in the navigation menu.
+    commands:
+      - command: hover-image
+        description: menu icon in the top right corner
+        action: click
+      - command: hover-text
+        text: About Us
+        description: navigation menu item
+        action: click
+  - prompt: Click on the "About Us" section in the navigation menu.
+    commands:
+      - command: hover-image
+        description: menu icon in the top right corner
+        action: click
+      - command: hover-text
+        text: About Us
+        description: navigation menu item
+        action: click
+  - prompt: Click on the "About Us" section in the navigation menu.
+    commands:
+      - command: hover-image
+        description: menu icon in the top right corner
+        action: click
+      - command: hover-text
+        text: About Us
+        description: navigation menu item
+        action: click
+  - prompt: Click on the "About Us" section in the navigation menu.
+    commands:
+      - command: hover-image
+        description: menu icon in the top right corner
+        action: click
+      - command: hover-text
+        text: About Us
+        description: navigation menu item
+        action: click
+  - prompt: Click on the "About Us" section in the navigation menu.
+    commands:
+      - command: hover-image
+        description: menu icon in the top right corner
+        action: click
+      - command: hover-text
+        text: About Us
+        description: navigation menu item
+        action: click
+  - prompt: Click on the "About Us" section in the navigation menu.
+    commands:
+      - command: hover-image
+        description: menu icon in the top right corner
+        action: click
+      - command: hover-text
+        text: About Us
+        description: navigation menu item
+        action: click
+  - prompt: Click on the "About Us" section in the navigation menu.
+    commands:
+      - command: hover-image
+        description: menu icon in the top right corner
+        action: click
+      - command: hover-text
+        text: About Us
+        description: navigation menu item
+        action: click
+  - prompt: Click on the "About Us" section in the navigation menu.
+    commands:
+      - command: hover-image
+        description: menu icon in the top right corner
+        action: click
+      - command: hover-text
+        text: About Us
+        description: navigation menu item
+        action: click
+  - prompt: Click on the "About Us" section in the navigation menu.
+    commands:
+      - command: hover-image
+        description: menu icon in the top right corner
+        action: click
+      - command: hover-text
+        text: About Us
+        description: navigation menu item
+        action: click
