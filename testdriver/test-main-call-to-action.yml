@@ -1,0 +1,112 @@
+version: 4.0.69
+steps:
+  - prompt: Focus the browser window.
+    commands:
+      - command: focus-application
+        name: Google Chrome
+  - prompt: >-
+      Click on the main call to action  # Use the content of the file from the
+      environment
+    commands:
+      - command: hover-text
+        text: Courage + Conviction
+        description: main call to action
+        action: click
+  - prompt: >-
+      Click on the main call to action  # Use the content of the file from the
+      environment
+    commands:
+      - command: focus-application
+        name: Google Chrome
+      - command: hover-text
+        text: Courage + Conviction
+        description: main call to action
+        action: click
+  - prompt: >-
+      Click on the main call to action  # Use the content of the file from the
+      environment
+    commands:
+      - command: hover-text
+        text: Ok
+        description: cookie consent button
+        action: click
+      - command: scroll-until-text
+        text: Learn More
+        direction: down
+      - command: hover-text
+        text: Learn More
+        description: main call to action
+        action: click
+  - prompt: >-
+      Click on the main call to action  # Use the content of the file from the
+      environment
+    commands:
+      - command: scroll-until-text
+        text: Learn More
+        direction: down
+      - command: hover-text
+        text: Learn More
+        description: main call to action
+        action: click
+  - prompt: >-
+      Click on the main call to action  # Use the content of the file from the
+      environment
+    commands:
+      - command: scroll-until-text
+        text: Learn More
+        direction: down
+      - command: hover-text
+        text: Learn More
+        description: main call to action
+        action: click
+  - prompt: >-
+      Click on the main call to action  # Use the content of the file from the
+      environment
+    commands:
+      - command: scroll-until-text
+        text: Learn More
+        direction: down
+      - command: hover-text
+        text: Learn More
+        description: main call to action
+        action: click
+  - prompt: >-
+      Click on the main call to action  # Use the content of the file from the
+      environment
+    commands:
+      - command: focus-application
+        name: Google Chrome
+      - command: hover-text
+        text: Courage + Conviction
+        description: main call to action
+        action: click
+  - prompt: >-
+      Click on the main call to action  # Use the content of the file from the
+      environment
+    commands:
+      - command: scroll-until-text
+        text: Learn More
+        direction: down
+      - command: hover-text
+        text: Learn More
+        description: main call to action
+        action: click
+  - prompt: >-
+      Click on the main call to action  # Use the content of the file from the
+      environment
+    commands:
+      - command: hover-text
+        text: Courage + Conviction
+        description: main call to action
+        action: click
+  - prompt: >-
+      Click on the main call to action  # Use the content of the file from the
+      environment
+    commands:
+      - command: scroll-until-text
+        text: Learn More
+        direction: down
+      - command: hover-text
+        text: Learn More
+        description: main call to action
+        action: click
