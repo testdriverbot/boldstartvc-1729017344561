@@ -1,0 +1,204 @@
+version: 4.0.69
+steps:
+  - prompt: Focus the browser window.
+    commands:
+      - command: focus-application
+        name: Google Chrome
+  - prompt: Scroll to the footer section.
+    commands:
+      - command: scroll-until-text
+        text: >-
+          We use cookies to ensure that we give you the best experience on our
+          website.
+        direction: down
+  - prompt: >-
+      Click on each footer link one by one  # Use the content of the file from
+      the environment
+    commands:
+      - command: scroll-until-text
+        text: >-
+          We use cookies to ensure that we give you the best experience on our
+          website.
+        direction: down
+      - command: hover-text
+        text: Footer Link Text 1
+        description: first footer link
+        action: click
+      - command: hover-text
+        text: Footer Link Text 2
+        description: second footer link
+        action: click
+      - command: hover-text
+        text: Footer Link Text 3
+        description: third footer link
+        action: click
+  - prompt: >-
+      Click on each footer link one by one  # Use the content of the file from
+      the environment
+    commands:
+      - command: scroll-until-text
+        text: >-
+          We use cookies to ensure that we give you the best experience on our
+          website.
+        direction: down
+      - command: hover-text
+        text: Privacy Policy
+        description: privacy policy link in the footer
+        action: click
+      - command: hover-text
+        text: Terms of Service
+        description: terms of service link in the footer
+        action: click
+      - command: hover-text
+        text: Contact Us
+        description: contact us link in the footer
+        action: click
+  - prompt: >-
+      Click on each footer link one by one  # Use the content of the file from
+      the environment
+    commands:
+      - command: focus-application
+        name: Google Chrome
+      - command: scroll-until-text
+        text: >-
+          We use cookies to ensure that we give you the best experience on our
+          website.
+        direction: down
+      - command: hover-text
+        text: Privacy Policy
+        description: privacy policy link in the footer
+        action: click
+      - command: hover-text
+        text: Terms of Service
+        description: terms of service link in the footer
+        action: click
+      - command: hover-text
+        text: Contact Us
+        description: contact us link in the footer
+        action: click
+  - prompt: >-
+      Click on each footer link one by one  # Use the content of the file from
+      the environment
+    commands:
+      - command: focus-application
+        name: Google Chrome
+      - command: scroll-until-text
+        text: >-
+          We use cookies to ensure that we give you the best experience on our
+          website.
+        direction: down
+      - command: hover-text
+        text: Privacy Policy
+        description: privacy policy link in the footer
+        action: click
+      - command: hover-text
+        text: Terms of Service
+        description: terms of service link in the footer
+        action: click
+      - command: hover-text
+        text: Contact Us
+        description: contact us link in the footer
+        action: click
+  - prompt: >-
+      Click on each footer link one by one  # Use the content of the file from
+      the environment
+    commands:
+      - command: hover-text
+        text: Privacy Policy
+        description: privacy policy link in the footer
+        action: click
+      - command: hover-text
+        text: Terms of Service
+        description: terms of service link in the footer
+        action: click
+      - command: hover-text
+        text: Contact Us
+        description: contact us link in the footer
+        action: click
+  - prompt: >-
+      Click on each footer link one by one  # Use the content of the file from
+      the environment
+    commands:
+      - command: hover-text
+        text: Privacy Policy
+        description: privacy policy link in the footer
+        action: click
+      - command: hover-text
+        text: Terms of Service
+        description: terms of service link in the footer
+        action: click
+      - command: hover-text
+        text: Contact Us
+        description: contact us link in the footer
+        action: click
+  - prompt: >-
+      Click on each footer link one by one  # Use the content of the file from
+      the environment
+    commands:
+      - command: hover-text
+        text: Privacy Policy
+        description: privacy policy link in the footer
+        action: click
+      - command: hover-text
+        text: Terms of Service
+        description: terms of service link in the footer
+        action: click
+      - command: hover-text
+        text: Contact Us
+        description: contact us link in the footer
+        action: click
+  - prompt: >-
+      Click on each footer link one by one  # Use the content of the file from
+      the environment
+    commands:
+      - command: focus-application
+        name: Google Chrome
+      - command: scroll-until-text
+        text: >-
+          We use cookies to ensure that we give you the best experience on our
+          website.
+        direction: down
+      - command: hover-text
+        text: Privacy Policy
+        description: privacy policy link in the footer
+        action: click
+      - command: hover-text
+        text: Terms of Service
+        description: terms of service link in the footer
+        action: click
+      - command: hover-text
+        text: Contact Us
+        description: contact us link in the footer
+        action: click
+  - prompt: >-
+      Click on each footer link one by one  # Use the content of the file from
+      the environment
+    commands:
+      - command: hover-text
+        text: Privacy Policy
+        description: privacy policy link in the footer
+        action: click
+      - command: hover-text
+        text: Terms of Service
+        description: terms of service link in the footer
+        action: click
+      - command: hover-text
+        text: Contact Us
+        description: contact us link in the footer
+        action: click
+  - prompt: >-
+      Click on each footer link one by one  # Use the content of the file from
+      the environment
+    commands:
+      - command: hover-text
+        text: Privacy Policy
+        description: privacy policy link in the footer
+        action: click
+      - command: hover-text
+        text: Terms of Service
+        description: terms of service link in the footer
+        action: click
+      - command: hover-text
+        text: Contact Us
+        description: contact us link in the footer
+        action: click
