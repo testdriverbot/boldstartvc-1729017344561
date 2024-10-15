@@ -1,0 +1,109 @@
+version: 4.0.69
+steps:
+  - prompt: Focus the browser window.
+    commands: []
+  - prompt: Click on the "Blog" link in the navigation menu.
+    commands:
+      - command: hover-text
+        text: Blog
+        description: link in the navigation menu
+        action: click
+  - prompt: Click on the "Blog" link in the navigation menu.
+    commands:
+      - command: scroll-until-text
+        text: Blog
+        direction: down
+      - command: hover-text
+        text: Blog
+        description: link in the navigation menu
+        action: click
+  - prompt: Click on the "Blog" link in the navigation menu.
+    commands:
+      - command: hover-image
+        description: menu icon in the top right corner
+        action: click
+      - command: hover-text
+        text: Blog
+        description: link in the navigation menu
+        action: click
+  - prompt: Click on the "Blog" link in the navigation menu.
+    commands:
+      - command: hover-image
+        description: menu icon in the top right corner
+        action: click
+      - command: hover-text
+        text: Blog
+        description: link in the navigation menu
+        action: click
+  - prompt: Click on the "Blog" link in the navigation menu.
+    commands:
+      - command: hover-image
+        description: menu icon in the top right corner
+        action: click
+      - command: scroll-until-text
+        text: Blog
+        direction: down
+      - command: hover-text
+        text: Blog
+        description: link in the navigation menu
+        action: click
+  - prompt: Click on the "Blog" link in the navigation menu.
+    commands:
+      - command: hover-image
+        description: menu icon in the top right corner
+        action: click
+      - command: scroll-until-text
+        text: Blog
+        direction: down
+      - command: hover-text
+        text: Blog
+        description: link in the navigation menu
+        action: click
+  - prompt: Click on the "Blog" link in the navigation menu.
+    commands:
+      - command: hover-image
+        description: menu icon in the top right corner
+        action: click
+      - command: scroll-until-text
+        text: Blog
+        direction: down
+      - command: hover-text
+        text: Blog
+        description: link in the navigation menu
+        action: click
+  - prompt: Click on the "Blog" link in the navigation menu.
+    commands:
+      - command: hover-image
+        description: menu icon in the top right corner
+        action: click
+      - command: scroll-until-text
+        text: Blog
+        direction: down
+      - command: hover-text
+        text: Blog
+        description: link in the navigation menu
+        action: click
+  - prompt: Click on the "Blog" link in the navigation menu.
+    commands:
+      - command: hover-image
+        description: menu icon in the top right corner
+        action: click
+      - command: scroll-until-text
+        text: Blog
+        direction: down
+      - command: hover-text
+        text: Blog
+        description: link in the navigation menu
+        action: click
+  - prompt: Click on the "Blog" link in the navigation menu.
+    commands:
+      - command: hover-image
+        description: menu icon in the top right corner
+        action: click
+      - command: scroll-until-text
+        text: Blog
+        direction: down
+      - command: hover-text
+        text: Blog
+        description: link in the navigation menu
+        action: click
